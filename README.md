@@ -1,4 +1,4 @@
-# CTruckLaunchKit
+# CTruck Launch Kit
 
 ## How to set up a development environment
 
@@ -6,14 +6,14 @@ Setting up a development environment to interact with smart contracts on Ethereu
 
 1. Create API keys on Alchemy - [https://dashboard.alchemy.com/apps](https://dashboard.alchemy.com/apps)
 
-2. Clone the starterKit/launchKit:
+2. Clone the launchKit:
    ```bash
    git clone https://github.com/cybertrucker-erc/CTruckLaunchKit.git
    ```
 
 3. Go to the directory:
    ```bash
-   cd CTruckStarterKit
+   cd CTruckLaunchKit
    ```
 
 4. Install Hardhat with the following command:
