@@ -8,7 +8,7 @@ Setting up a development environment to interact with smart contracts on Ethereu
 
 2. Clone the starterKit/launchKit:
    ```bash
-   git clone CTruckStarterKit
+   git clone https://github.com/cybertrucker-erc/CTruckLaunchKit.git
    ```
 
 3. Go to the directory:
