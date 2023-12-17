@@ -1,30 +1,36 @@
-## CTruckLaunchKit
+# CTruckLaunchKit
 
-### How to set up a development environment
-Setting up a development environment to interact with smart contracts on ethereum:
-Create api keys on alchemy - https://dashboard.alchemy.com/apps
+## How to set up a development environment
 
+Setting up a development environment to interact with smart contracts on Ethereum:
 
-Clone the starterKit/launchKit:
+1. Create API keys on Alchemy - [https://dashboard.alchemy.com/apps](https://dashboard.alchemy.com/apps)
 
-git clone CTruckStarterKit
+2. Clone the starterKit/launchKit:
+   ```bash
+   git clone CTruckStarterKit
+   ```
 
-Go to the directory
+3. Go to the directory:
+   ```bash
+   cd CTruckStarterKit
+   ```
 
-cd CTruckStarterKit
+4. Install Hardhat with the following command:
+   ```bash
+   npm install --save-dev hardhat
+   ```
 
+5. Install remaining dependencies:
+   ```bash
+   npm install
+   ```
 
-Install hardhat with following command:
-npm install --save-dev hardhat
-
-
-Install remaining:
-npm install
-
-
-Create file named .env in the root with following content:
-
-API_URL = "https://eth-sepolia.g.alchemy.com/v2/your-api-key"
-API_KEY = "your-alchemy-api-key"
-PRIVATE_KEY = "your-metamask-private-key"
-CONTRACT_ADDRESS = "target-contract-address"
+6. Create a file named `.env` in the root with the following content:
+   ```env
+   API_URL = "https://eth-sepolia.g.alchemy.com/v2/your-api-key"
+   API_KEY = "your-alchemy-api-key"
+   PRIVATE_KEY = "your-metamask-private-key"
+   CONTRACT_ADDRESS = "target-contract-address"
+   ```
+```
