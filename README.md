@@ -33,4 +33,3 @@ Setting up a development environment to interact with smart contracts on Ethereu
    PRIVATE_KEY = "your-metamask-private-key"
    CONTRACT_ADDRESS = "target-contract-address"
    ```
-```
